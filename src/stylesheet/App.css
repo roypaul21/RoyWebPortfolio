@@ -257,6 +257,10 @@ body {
       transform: translateY(10px);
   }
 }
+.about-section-image-desktop{
+  position: relative;
+  z-index: 3;
+}
 
 .about-section-image-desktop > img{
   margin: 0px;
