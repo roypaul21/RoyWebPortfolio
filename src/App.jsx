@@ -9,11 +9,11 @@ import ClipLoader from "react-spinners/BarLoader";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/RoyWebPortfolio/",
     element: <Home />
   },
   {
-    path: "/aboutme",
+    path: "/RoyWebPortfolio/aboutme",
     element: <AboutMe />
   },
 ]);
