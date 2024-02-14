@@ -2,6 +2,7 @@ import Skills from "./Skills";
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
+import Works from "./Works";
 
 export default function SkillsWorks() {
       useEffect(() => {
@@ -20,6 +21,7 @@ export default function SkillsWorks() {
       return(
          <>
             <Skills />
+            <Works />
          </>
       )
 }
