@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/home/HeroSection';
 import AboutMe from './pages/aboutme/AboutMe';
 import ClipLoader from "react-spinners/BarLoader";
+import SkillsWorks from './pages/skills';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/aboutme",
     element: <AboutMe />
+  },
+  {
+    path: "/skills",
+    element: <SkillsWorks />
   },
 ]);
 

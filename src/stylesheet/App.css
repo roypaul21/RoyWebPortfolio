@@ -40,10 +40,7 @@ body {
 
 #navbar-section-pages {
   display: flex;
-  align-items: center !important;
-  justify-content: center !important;
-  text-align: center !important;
-  width: 100%;
+  
 }
 
 /*Animation Box SECTION*/
@@ -204,20 +201,19 @@ body {
   position: relative
 }
 .about-icon-wrapper{
-  background-color: white;
-  width: 70%;
-  height: 8%;
-  position: absolute;
-  top: 43%;
   display: flex;
+  background-color: none;
+  width: 100%;
+  height: 3.8rem;
   z-index: 5;
-  justify-content: flex-end;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 2rem;
 }
 
 .about--section--icon {
    height: 100%;
    display: flex;
-   padding-right:4rem ;
    align-items: center;
    gap:1.5rem;
 }
@@ -226,7 +222,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 2.5rem;
-  color: #333333;
+  color: white;
 }
 
 .fb--icon {
@@ -250,11 +246,11 @@ body {
 
 @keyframes moveUpDown {
   0% {
-      transform: translateY(-8px);
+      transform: translateY(0);
   }
   100% {
       color: aquamarine;
-      transform: translateY(10px);
+      transform: translateY(15px);
   }
 }
 .about-section-image-desktop{
@@ -320,84 +316,160 @@ body {
   font-weight: 400;
 }
 
+.about-section-btn {
+  width: 100%;
+  z-index: 5;
+  position: relative;
+}
+
+.about-section-btn > a > button{
+  width: 8rem;
+  height: 2.5rem;
+  background-color: #4A4A4A;
+  border-width: 0;
+  border-radius: 5px;
+  font-weight: 700;
+  color: white;
+}
+
 
 @media screen and (max-width: 768px) {
+
   .about-section{
     overflow: hidden;
     display: flex;
     flex-direction: column-reverse;
   } 
 
+  .about-section-left-content {
+    height: 60%;
+  }
+
   .about-section-image-desktop{
     display: flex;    
     justify-content: center;
-    
+    margin: 0;
   }
 
   .about-section-image-desktop > img{
     margin: 0px;
     padding: 0px;
-    height: 300px;
-    width: 80%;
+    height: 250px;
+    width: 70%;
     position: relative;
     z-index: 3;
   }
+
 
   .about-icon-wrapper{
     background-color: #333333;
     width: 100%;
     height: 8%;
-    top: 0%;
     display: flex;
-    z-index: 5;
     justify-content: center;
   }
 
   .about--section--icon {
    padding-right:0rem ;
+  }
+
+  .icon-button > .icon{
+    margin: 0px;
+    padding: 0px;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .about-section-right-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+
+  .about-section-right-content > h1{
+    display: none;
+  }
+
+  .about-section-text {
+    width: 70%;
+    text-align: center;
+
+
+  }.about-section-text > h1{
+    font-size: 30px;
+    padding: 0px 0 10px 0;
+    opacity: 0.8;
+  }
+
+  .about-section-text > h2{
+    font-size: 20px;
+    padding: 0px 0 5px 0;
+  }
+
+  .about-section-text > p{
+    font-size: 12px;
+  }
+
+  .about-section-btn > a > button{
+    width: 6rem;
+    height: 2rem;
+    background-color: #4A4A4A;
+    border-width: 0;
+    border-radius: 5px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
 }
 
-.icon-button > .icon{
-  margin: 0px;
-  padding: 0px;
-  font-size: 2rem;
+/*SKILLS SECTION*/
+.skills-section{
+  overflow: hidden;
+  height: 100vh;
+  background-color: #333333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 0 0;
+} 
+
+.skills-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80rem;
+  height: 35.333rem;
+  background-color: none;
   color: white;
 }
 
-.about-section-right-content {
-  height: 100%;
+
+.skills-section-text{
+  width: 35%;
+  padding: 0 0 0 4rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  position: relative;
 }
 
-.about-section-right-content > h1{
-  display: none;
+.skills-section-text > h3 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.skills-icon-wrapper {
+  display: flex;
+  gap: 1rem;
+  
+}
+.skills-icon {
+  font-size: 2rem;
 }
 
-.about-section-text {
-  width: 70%;
-  text-align: center;
-
-
-}.about-section-text > h1{
-  font-size: 30px;
-  padding: 0px 0 10px 0;
-
-}
-
-.about-section-text > h2{
-  font-size: 20px;
-  padding: 0px 0 5px 0;
-}
-
-.about-section-text > p{
-  font-size: 12px;
-}
-
-}
 
 
 

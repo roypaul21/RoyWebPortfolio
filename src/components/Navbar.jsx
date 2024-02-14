@@ -21,11 +21,11 @@ function CollapsibleExample() {
           <Nav className="me-auto" id="navbar-section-pages">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/aboutme" >About Me</Nav.Link>
-            <Nav.Link href="/" >Skills</Nav.Link>
+            <Nav.Link href="/skills" >Skills</Nav.Link>
           </Nav>
           <Nav>
             <Button variant="light" size="sm" href="/">
-                Contact
+                Contact Me
             </Button>
           </Nav>
         </Navbar.Collapse>
