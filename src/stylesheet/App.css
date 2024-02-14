@@ -449,6 +449,10 @@ body {
   color: white;
 }
 
+.skills-section-image > img {
+  height: 100%;
+  width: 100%;
+}
 
 .skills-section-text{
   width: 35%;
@@ -469,6 +473,8 @@ body {
 .skills-icon {
   font-size: 2rem;
 }
+
+
 
 
 

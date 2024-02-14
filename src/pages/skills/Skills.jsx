@@ -23,13 +23,20 @@ import { SiFlask } from "react-icons/si";
 import { SiStreamlit } from "react-icons/si";
 
 import { SiSelenium } from "react-icons/si";
+import AniBox from '../../components/AniBox';
+
+import { SiMysql } from "react-icons/si";
+import { SiSqlalchemy } from "react-icons/si";
+import { SiSqlite } from "react-icons/si";
 
 export default function Skills() {
+    
+
     return(
         <section className="skills-section">
-            <Carousel>
-                <Carousel.Item interval={5000}>
-                    <div className='skills-carousel'>
+            <Carousel data-aos="slide-right">
+                <Carousel.Item interval={2000}>
+                    <div className='skills-carousel' >
                         <div className='skills-section-image'>
                             <img id="UID" src="./image/UID.png" alt="Yor"/>
                         </div>
@@ -46,7 +53,7 @@ export default function Skills() {
                         </div>
                     </div>
                 </Carousel.Item>
-                <Carousel.Item interval={5000}>
+                <Carousel.Item interval={2000}>
                     <div className='skills-carousel'>
                         <div className='skills-section-image'>
                                 <img id="DC" src="./image/DC.png" alt="Yor"/>
@@ -66,7 +73,7 @@ export default function Skills() {
                             </div>
                     </div>
                 </Carousel.Item>
-                <Carousel.Item interval={5000}>
+                <Carousel.Item interval={2000}>
                     <div className='skills-carousel'>
                         <div className='skills-section-image'>
                                 <img id="game" src="./image/Game.png" alt="Yor"/>
@@ -77,18 +84,18 @@ export default function Skills() {
                                    I bring ideas to life with the help of Unity and other tools turning virtual experiences into exciting adventures. 
                                 </p>
                                 <div className="skills-icon-wrapper"> 
+                                    <FaPython className='skills-icon' />
                                     <TbBrandCSharp className='skills-icon' />
                                     <FaUnity className='skills-icon'/>
-                                    <SiTensorflow className='skills-icon' />
                                     <SiVisualstudiocode className='skills-icon' />
                                 </div>
                             </div>
                     </div>
                 </Carousel.Item>
-                <Carousel.Item interval={5000}>
+                <Carousel.Item interval={2000}>
                     <div className='skills-carousel'>
                         <div className='skills-section-image'>
-                                <img id="web" src="./image/DC.png" alt="Yor"/>
+                                <img id="web" src="./image/web.png" alt="Yor"/>
                             </div>
                             <div className='skills-section-text'>
                                 <h3>Web Development</h3>
@@ -108,7 +115,7 @@ export default function Skills() {
                             </div>
                     </div>
                 </Carousel.Item>
-                <Carousel.Item interval={5000}>
+                <Carousel.Item interval={2000}>
                     <div className='skills-carousel'>
                         <div className='skills-section-image'>
                                 <img id="web" src="./image/QA.png" alt="Yor"/>
@@ -122,6 +129,24 @@ export default function Skills() {
                                 <div className="skills-icon-wrapper"> 
                                     <FaPython className='skills-icon' />
                                     <SiSelenium className='skills-icon' />
+                                 </div>
+                            </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item interval={2000}>
+                    <div className='skills-carousel'>
+                        <div className='skills-section-image'>
+                                <img id="web" src="./image/database.png" alt="Yor"/>
+                            </div>
+                            <div className='skills-section-text'>
+                                <h3>Data Management</h3>
+                                <p>Using databases like MySQL allows developers to seamlessly manipulate data,
+                                    perform queries, and ensure database integrity through object-relational mapping.
+                                </p>
+                                <div className="skills-icon-wrapper"> 
+                                    <SiMysql className='skills-icon' />
+                                    <SiSqlalchemy className='skills-icon' />
+                                    <SiSqlite className='skills-icon' />
                                  </div>
                             </div>
                     </div>
