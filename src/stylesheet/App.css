@@ -633,10 +633,141 @@ body {
 }
 
 
+/* CONTACTS SECTION*/
+.contact-section {
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-section-left {
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.contact-section-animation{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}  
+
+.contact-section-text > h1 {
+  color: #333333;
+  font-weight: 800;
+  margin: 0;
+}
+.contact-section-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contact-section-text > p {
+  color: #333333;
+  margin: 0;
+}
+
+.contact-section-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-section-right > input {
+  width: 20rem;
+  height: 40px;
+  border-radius: 5px;
+  border-width: 0;
+  box-shadow: 0px 2px 5px 1px gray;
+}
+
+.contact-section-right > input::placeholder {
+  font-size: small;
+}
+
+.contact-section-right > textarea::placeholder {
+  font-size: smaller;
+}
+
+.contact-section-right > textarea {
+  width: 20rem;
+  height:6rem;
+  border-width: 0;
+  outline: none;
+  box-shadow: 0px 2px 5px 1px gray;
+}
+
+.contact-send-btn {
+  width: 20rem;
+  height: 2rem;
+  border-width: 0;
+  background-color: #333333;
+  color: white;
+  border-radius: 5px;
+
+}
+
+.contact-section-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+.contact-icon {
+  display: flex;
+  flex-direction: row;
+  color: #333333;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  gap:5px;
+}
+
+.contact-icon > p {
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
 
 
+/*FOOTER SECTION*/
 
+.footer-section{
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.footer-section-line {
+   width: 90%;
+   height: 2px;
+   background-color: #333333;
+}
+
+.footer-section-content {
+  padding: 5px 0 0 0;
+  width: 88%;
+  display: flex;
+  flex-direction: row;
+  color: #333333;
+  gap: 1rem;
+  justify-content: flex-end;
+  font-size: 13px;
+}
 
 
 

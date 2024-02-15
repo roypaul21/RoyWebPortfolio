@@ -7,6 +7,7 @@ import Home from './pages/home/HeroSection';
 import AboutMe from './pages/aboutme/AboutMe';
 import ClipLoader from "react-spinners/BarLoader";
 import SkillsWorks from './pages/skills';
+import ContactsFooter from './pages/contact';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/skills",
     element: <SkillsWorks />
+  },
+  {
+    path: "/contact",
+    element: <ContactsFooter />
   },
 ]);
 

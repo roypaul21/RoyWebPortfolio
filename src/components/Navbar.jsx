@@ -24,7 +24,7 @@ function CollapsibleExample() {
             <Nav.Link href="/skills" >Skills</Nav.Link>
           </Nav>
           <Nav>
-            <Button variant="light" size="sm" href="/">
+            <Button variant="light" size="sm" href="/contact">
                 Contact Me
             </Button>
           </Nav>

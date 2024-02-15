@@ -26,7 +26,7 @@ export default function Home() {
                 </div>
                 
                 <div className="hero-section-btn">
-                    <a href="/">
+                    <a href="/contact">
                         <button id="GIT" data-aos="fade-right" data-aos-delay="500">Get in Touch</button>
                     </a>
                     <a href="/aboutme">
