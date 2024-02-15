@@ -642,6 +642,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 5rem 0 0 0;
 }
 .contact-section-left {
    display: flex;
@@ -738,6 +739,13 @@ body {
   font-size: 15px;
   margin: 0 auto;
   padding: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-section-text {
+    padding-bottom: 2rem;
+  }
+  
 }
 
 
