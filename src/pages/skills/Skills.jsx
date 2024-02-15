@@ -23,7 +23,6 @@ import { SiFlask } from "react-icons/si";
 import { SiStreamlit } from "react-icons/si";
 
 import { SiSelenium } from "react-icons/si";
-import AniBox from '../../components/AniBox';
 
 import { SiMysql } from "react-icons/si";
 import { SiSqlalchemy } from "react-icons/si";
@@ -150,8 +149,9 @@ export default function Skills() {
                                  </div>
                             </div>
                     </div>
-                </Carousel.Item>
+                </Carousel.Item>  
             </Carousel>
+        
         </section>
     )
 }

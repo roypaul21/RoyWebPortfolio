@@ -441,7 +441,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem 0 0 0;
+  padding: 2rem 0 0 0;
 } 
 
 .skills-carousel {
@@ -450,14 +450,20 @@ body {
   align-items: center;
   flex-direction: row;
   width: 100%;
-  height: 100;
+  height: 100%;
   background-color: none;
   color: white;
   padding-top: 5rem;
+
 }
 
 .carousel-indicators {
   top:0;
+}
+
+.skills-section-image {
+  height: 100%;
+  overflow: hidden;
 }
 
 .skills-section-image > img {
@@ -536,12 +542,98 @@ body {
   }
 }
 
-/* WORKS SECTION*/
-
-.works-section {
-    height: 100vh;
-    width: 100%;
+/* WORKS HEADER SECTION*/
+.works-header-section {
+  width: 100%;
+  height: 25vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
 }
+
+.works-header-section > h1 {
+  font-size: 5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.works-header-section > p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* WORKS SECTION*/
+.works-section {
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem 0 4rem 0;
+}
+
+.work-content-text > p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.content-left{
+  width: 60%;
+}
+
+.works-content-img {
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   font-size: 2rem;
+}
+
+.works-content-img > a > img {
+  filter: drop-shadow(-10px 10px 5px rgba(0, 0, 0, 0.2));
+  transition: all 300ms;
+  height: 100%;
+  width: 100%;
+}
+
+.works-content-img > a > img:hover {
+  transform: scale(1.1);
+}
+
+.content-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 1000px) {
+    .works-header-section > h1 {
+      font-size: 3rem;
+    }
+
+    .works-header-section > p {
+      font-size: 12px;
+    }
+
+    .works-section {
+      gap: 2rem;
+    }
+
+    .works-content {
+       align-items: center;
+    }
+  
+}
+
+
+
+
+
 
 
 

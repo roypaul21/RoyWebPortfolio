@@ -3,6 +3,7 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 import Works from "./Works";
+import WorksHeader from "./WorksHeader";
 
 export default function SkillsWorks() {
       useEffect(() => {
@@ -21,6 +22,7 @@ export default function SkillsWorks() {
       return(
          <>
             <Skills />
+            <WorksHeader />
             <Works />
          </>
       )
