@@ -3,6 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import { BiSolidFilePdf } from "react-icons/bi";
 import { useEffect } from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -20,6 +21,17 @@ export default function AboutMe() {
             once: true,
         })
     },[])
+
+    const PdfCVFile = "https://drive.google.com/uc?export=download&id=14CeDxIpuV6C9DCUvihNLmTC-BkuZOplS";
+    const downloadFile = () => {
+        const anchor = document.createElement('a');
+        anchor.href = PdfCVFile;
+        anchor.download = 'CV.pdf';
+        document.body.appendChild(anchor);
+        anchor.click();
+        document.body.removeChild(anchor);
+    };
+
     return(
         <section className="about-section">
             <div className="about-section-left-content">
@@ -44,6 +56,10 @@ export default function AboutMe() {
                         <a href="/skills">
                                 <button id="skills" data-aos="fade-left" data-aos-delay="2000">My Skills</button>
                         </a>
+                        <button className="contact-download-pdf" onClick={downloadFile} data-aos="fade-left" data-aos-delay="2200">
+                            <BiSolidFilePdf/> Download CV
+                        </button>
+                        
                     </div>
                     <div className="about-icon-wrapper" data-aos="fade-left" data-aos-delay="2300">
                         <div className="about--section--icon" data-aos="zoom-out">

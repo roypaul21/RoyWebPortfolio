@@ -57,6 +57,7 @@ export default function Contact() {
                     <MdEmail />
                     <p>roypnarido@gmail.com</p>
                 </div>
+                    
                 <div className="contact-icon">
                     <FaPhoneAlt />
                     <p>0927 420 7118</p>
