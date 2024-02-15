@@ -9,11 +9,11 @@ export default function Works() {
                     <p>Tanya's Web Portfolio</p>
                  </div>
                 <div className="works-content-img">
-                    <a href="/">
+                    <a href="https://tanyakasteneportfolio.netlify.app/">
                         <img id="work-1" src="./image/work1.png" alt="Yor"/>
                     </a>
                     <div className="works-icon-wrapper">
-                        <a href="/" > <FaGithub /> </a> 
+                        <a href="https://github.com/roypaul21/TanyaPortfolio" > <FaGithub /> </a> 
                     </div>
                 </div>
             </div>
@@ -23,11 +23,11 @@ export default function Works() {
                         <p>Tatbeeb Medical</p>
                     </div>
                     <div className="works-content-img">
-                        <a href="/">
+                        <a href="https://www.figma.com/community/file/1339916310611506716/tatbeeb-medical-mobile-app">
                             <img id="work-1" src="./image/work2.png" alt="Yor"/>
                         </a>
                         <div className="works-icon-wrapper">
-                            <a href="/" > <FaFigma /> </a> 
+                            <a href="https://www.figma.com/community/file/1339916310611506716/tatbeeb-medical-mobile-app" > <FaFigma /> </a> 
                         </div>
                     </div>
                 </div>
@@ -37,11 +37,11 @@ export default function Works() {
                     <p>Vertex Medical</p>
                  </div>
                 <div className="works-content-img">
-                    <a href="/">
+                    <a href="https://www.figma.com/community/file/1339918062749216285">
                         <img id="work-1" src="./image/work3.png" alt="Yor"/>
                     </a>
                     <div className="works-icon-wrapper">
-                        <a href="/" > <FaFigma   /> </a> 
+                        <a href="https://www.figma.com/community/file/1339918062749216285" > <FaFigma   /> </a> 
                     </div>
                 </div>
             </div>
@@ -51,11 +51,11 @@ export default function Works() {
                         <p>Duck Counting</p>
                     </div>
                     <div className="works-content-img">
-                        <a href="/">
+                        <a href="https://github.com/roypaul21/Duck-Detection-Web-App">
                             <img id="work-1" src="./image/work4.png" alt="Yor"/>
                         </a>
                         <div className="works-icon-wrapper">
-                            <a href="/" > <FaGithub /> </a> 
+                            <a href="https://github.com/roypaul21/Duck-Detection-Web-App" > <FaGithub /> </a> 
                         </div>
                     </div>
                 </div>
@@ -65,11 +65,11 @@ export default function Works() {
                     <p>Orange Man Game</p>
                  </div>
                 <div className="works-content-img">
-                    <a href="/">
+                    <a href="https://github.com/roypaul21/OrangeManGame">
                         <img id="work-1" src="./image/work5.png" alt="Yor"/>
                     </a>
                     <div className="works-icon-wrapper">
-                        <a href="/" > <FaGithub /> </a> 
+                        <a href="https://github.com/roypaul21/OrangeManGame" > <FaGithub /> </a> 
                     </div>
                 </div>
             </div>
@@ -79,11 +79,11 @@ export default function Works() {
                         <p>Othello Game</p>
                     </div>
                     <div className="works-content-img">
-                        <a href="/">
+                        <a href="https://github.com/roypaul21/Othello-Python">
                             <img id="work-1" src="./image/work6.png" alt="Yor"/>
                         </a>
                         <div className="works-icon-wrapper">
-                            <a href="/" > <FaGithub /> </a> 
+                            <a href="https://github.com/roypaul21/Othello-Python" > <FaGithub /> </a> 
                         </div>
                     </div>
                 </div>
@@ -93,11 +93,11 @@ export default function Works() {
                     <p>Eight Puzzle Game</p>
                  </div>
                 <div className="works-content-img">
-                    <a href="/">
+                    <a href="https://github.com/roypaul21/EightPuzzleGame">
                         <img id="work-1" src="./image/work7.png" alt="Yor"/>
                     </a>
                     <div className="works-icon-wrapper">
-                        <a href="/" > <FaGithub /> </a> 
+                        <a href="https://github.com/roypaul21/EightPuzzleGame" > <FaGithub /> </a> 
                     </div>
                 </div>
             </div>
