@@ -17,7 +17,24 @@ export default function Works() {
                     </div>
                 </div>
             </div>
+
             <div className="works-content content-right" data-aos="fade-right">
+                <div className="work-section-content">
+                    <div className="work-content-text">
+                        <p>Vertex Medical Web App Test</p>
+                    </div>
+                    <div className="works-content-img">
+                        <a href="https://vertex-med-test.netlify.app/">
+                            <img id="work-1" src="./image/work8.png" alt="Yor"/>
+                        </a>
+                        <div className="works-icon-wrapper">
+                            <a href="https://github.com/roypaul21/VertexWeb" > <FaGithub /> </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="works-content content-left" data-aos="fade-left">
                 <div className="work-section-content">
                     <div className="work-content-text">
                         <p>Tatbeeb Medical</p>
@@ -32,7 +49,7 @@ export default function Works() {
                     </div>
                 </div>
             </div>
-            <div className="works-content content-left" data-aos="fade-left">
+            <div className="works-content content-right" data-aos="fade-right">
                  <div className="work-content-text">
                     <p>Vertex Medical</p>
                  </div>
@@ -45,7 +62,7 @@ export default function Works() {
                     </div>
                 </div>
             </div>
-            <div className="works-content content-right" data-aos="fade-right">
+            <div className="works-content content-left" data-aos="fade-left">
                 <div className="work-section-content">
                     <div className="work-content-text">
                         <p>Duck Counting</p>
@@ -60,7 +77,7 @@ export default function Works() {
                     </div>
                 </div>
             </div>
-            <div className="works-content content-left" data-aos="fade-left">
+            <div className="works-content content-right" data-aos="fade-right">
                  <div className="work-content-text">
                     <p>Orange Man Game</p>
                  </div>
@@ -73,7 +90,7 @@ export default function Works() {
                     </div>
                 </div>
             </div>
-            <div className="works-content content-right" data-aos="fade-right">
+            <div className="works-content content-left" data-aos="fade-left">
                 <div className="work-section-content">
                     <div className="work-content-text">
                         <p>Othello Game</p>
@@ -88,7 +105,7 @@ export default function Works() {
                     </div>
                 </div>
             </div>
-            <div className="works-content content-left" data-aos="fade-left">
+            <div className="works-content content-right" data-aos="fade-right">
                  <div className="work-content-text">
                     <p>Eight Puzzle Game</p>
                  </div>
@@ -101,6 +118,7 @@ export default function Works() {
                     </div>
                 </div>
             </div>
+            
         </section>
     )
 }

@@ -53,12 +53,13 @@ export default function AboutMe() {
                         every difficulties transforms into a possibility waiting to be realized.
                     </p>
                     <div className="about-section-btn">
-                        <a href="/skills">
-                                <button id="skills" data-aos="fade-left" data-aos-delay="2000">My Skills</button>
-                        </a>
-                        <button className="contact-download-pdf" onClick={downloadFile} data-aos="fade-left" data-aos-delay="2200">
+                        <button className="contact-download-pdf" onClick={downloadFile} data-aos="fade-left" data-aos-delay="2000">
                             <BiSolidFilePdf/> Download CV
                         </button>
+
+                        <a href="/skills">
+                                <button id="skills" data-aos="fade-left" data-aos-delay="2100">My Skills</button>
+                        </a>
                         
                     </div>
                     <div className="about-icon-wrapper" data-aos="fade-left" data-aos-delay="2300">

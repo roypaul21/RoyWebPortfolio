@@ -347,7 +347,7 @@ body {
   border-width: 0;
   border-radius: 5px;
   font-weight: 700;
-  color: black;
+  color: #333333;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -451,6 +451,7 @@ body {
     font-style: normal;
     font-weight: 600;
   }
+
 
   .about-section-btn > button{
     width: 8rem;
@@ -613,7 +614,7 @@ body {
 .work-content-text > p {
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .content-left{
