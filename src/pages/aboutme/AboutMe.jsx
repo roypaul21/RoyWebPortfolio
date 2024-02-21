@@ -22,7 +22,7 @@ export default function AboutMe() {
         })
     },[])
 
-    const PdfCVFile = "https://drive.google.com/uc?export=download&id=14CeDxIpuV6C9DCUvihNLmTC-BkuZOplS";
+    const PdfCVFile = "https://drive.google.com/uc?export=download&id=1nr5WgVc5-2Wr9rynVgIk2eDmH3O0_t92";
     const downloadFile = () => {
         const anchor = document.createElement('a');
         anchor.href = PdfCVFile;
