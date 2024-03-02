@@ -50,15 +50,17 @@ export default function Works() {
                 </div>
             </div>
             <div className="works-content content-right" data-aos="fade-right">
-                 <div className="work-content-text">
-                    <p>Vertex Medical</p>
-                 </div>
-                <div className="works-content-img">
-                    <a href="https://www.figma.com/community/file/1339918062749216285">
-                        <img id="work-1" src="./image/work3.png" alt="Yor"/>
-                    </a>
-                    <div className="works-icon-wrapper">
-                        <a href="https://www.figma.com/community/file/1339918062749216285" > <FaFigma   /> </a> 
+                <div className="work-section-content">
+                    <div className="work-content-text">
+                        <p>Vertex Medical</p>
+                    </div>
+                    <div className="works-content-img">
+                        <a href="https://www.figma.com/community/file/1339918062749216285">
+                            <img id="work-1" src="./image/work3.png" alt="Yor"/>
+                        </a>
+                        <div className="works-icon-wrapper">
+                            <a href="https://www.figma.com/community/file/1339918062749216285" > <FaFigma   /> </a> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,15 +80,17 @@ export default function Works() {
                 </div>
             </div>
             <div className="works-content content-right" data-aos="fade-right">
-                 <div className="work-content-text">
-                    <p>Orange Man Game</p>
-                 </div>
-                <div className="works-content-img">
-                    <a href="https://github.com/roypaul21/OrangeManGame">
-                        <img id="work-1" src="./image/work5.png" alt="Yor"/>
-                    </a>
-                    <div className="works-icon-wrapper">
-                        <a href="https://github.com/roypaul21/OrangeManGame" > <FaGithub /> </a> 
+                <div className="work-section-content">
+                    <div className="work-content-text">
+                        <p>Orange Man Game</p>
+                    </div>
+                    <div className="works-content-img">
+                        <a href="https://github.com/roypaul21/OrangeManGame">
+                            <img id="work-1" src="./image/work5.png" alt="Yor"/>
+                        </a>
+                        <div className="works-icon-wrapper">
+                            <a href="https://github.com/roypaul21/OrangeManGame" > <FaGithub /> </a> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -106,15 +110,32 @@ export default function Works() {
                 </div>
             </div>
             <div className="works-content content-right" data-aos="fade-right">
-                 <div className="work-content-text">
-                    <p>Eight Puzzle Game</p>
-                 </div>
-                <div className="works-content-img">
-                    <a href="https://github.com/roypaul21/EightPuzzleGame">
-                        <img id="work-1" src="./image/work7.png" alt="Yor"/>
-                    </a>
-                    <div className="works-icon-wrapper">
-                        <a href="https://github.com/roypaul21/EightPuzzleGame" > <FaGithub /> </a> 
+                <div className="work-section-content">
+                    <div className="work-content-text">
+                        <p>Eight Puzzle Game</p>
+                    </div>
+                    <div className="works-content-img">
+                        <a href="https://github.com/roypaul21/EightPuzzleGame">
+                            <img id="work-1" src="./image/work7.png" alt="Yor"/>
+                        </a>
+                        <div className="works-icon-wrapper">
+                            <a href="https://github.com/roypaul21/EightPuzzleGame" > <FaGithub /> </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="works-content content-left" data-aos="fade-left">
+                <div className="work-section-content">
+                    <div className="work-content-text">
+                        <p>Bugged? Post</p>
+                    </div>
+                    <div className="works-content-img">
+                        <a href="https://github.com/roypaul21/BuggedPost">
+                            <img id="work-1" src="./image/work9.png" alt="Yor"/>
+                        </a>
+                        <div className="works-icon-wrapper">
+                            <a href="https://github.com/roypaul21/BuggedPost" > <FaGithub /> </a> 
+                        </div>
                     </div>
                 </div>
             </div>
