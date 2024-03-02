@@ -130,7 +130,7 @@ export default function Works() {
                         <p>Bugged? Post</p>
                     </div>
                     <div className="works-content-img">
-                        <a href="https://github.com/roypaul21/BuggedPost">
+                        <a href="https://buggedpost.netlify.app/">
                             <img id="work-1" src="./image/work9.png" alt="Yor"/>
                         </a>
                         <div className="works-icon-wrapper">
