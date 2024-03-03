@@ -37,18 +37,19 @@ export default function Works() {
             <div className="works-content content-left" data-aos="fade-left">
                 <div className="work-section-content">
                     <div className="work-content-text">
-                        <p>Tatbeeb Medical</p>
+                        <p>Bugged? Post</p>
                     </div>
                     <div className="works-content-img">
-                        <a href="https://www.figma.com/community/file/1339916310611506716/tatbeeb-medical-mobile-app">
-                            <img id="work-1" src="./image/work2.png" alt="Yor"/>
+                        <a href="https://buggedpost.netlify.app/">
+                            <img id="work-1" src="./image/work9.png" alt="Yor"/>
                         </a>
                         <div className="works-icon-wrapper">
-                            <a href="https://www.figma.com/community/file/1339916310611506716/tatbeeb-medical-mobile-app" > <FaFigma /> </a> 
+                            <a href="https://github.com/roypaul21/BuggedPost" > <FaGithub /> </a> 
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div className="works-content content-right" data-aos="fade-right">
                 <div className="work-section-content">
                     <div className="work-content-text">
@@ -124,22 +125,22 @@ export default function Works() {
                     </div>
                 </div>
             </div>
+            
             <div className="works-content content-left" data-aos="fade-left">
                 <div className="work-section-content">
                     <div className="work-content-text">
-                        <p>Bugged? Post</p>
+                        <p>Tatbeeb Medical</p>
                     </div>
                     <div className="works-content-img">
-                        <a href="https://buggedpost.netlify.app/">
-                            <img id="work-1" src="./image/work9.png" alt="Yor"/>
+                        <a href="https://www.figma.com/community/file/1339916310611506716/tatbeeb-medical-mobile-app">
+                            <img id="work-1" src="./image/work2.png" alt="Yor"/>
                         </a>
                         <div className="works-icon-wrapper">
-                            <a href="https://github.com/roypaul21/BuggedPost" > <FaGithub /> </a> 
+                            <a href="https://www.figma.com/community/file/1339916310611506716/tatbeeb-medical-mobile-app" > <FaFigma /> </a> 
                         </div>
                     </div>
                 </div>
             </div>
-            
         </section>
     )
 }
