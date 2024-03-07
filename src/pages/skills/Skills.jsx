@@ -151,7 +151,9 @@ export default function Skills() {
                     </div>
                 </Carousel.Item>  
             </Carousel>
-        
+            <div className='scroll-down overflow-container'>
+                <img id="scroll-down" src="./image/scroll_dwn.png" alt="Yor" width={60} data-aos="slide-down"/>
+            </div>
         </section>
     )
 }

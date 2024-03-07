@@ -7,6 +7,7 @@ import { BiSolidFilePdf } from "react-icons/bi";
 import { useEffect } from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import { Link } from "react-router-dom";
 
 export default function AboutMe() {
     useEffect(() => {
@@ -35,31 +36,41 @@ export default function AboutMe() {
     return(
         <section className="about-section">
             <div className="about-section-left-content">
-                <div className="about-section-image-desktop" data-aos="fade-right">
-                   <img src="./image/profile-port.png" alt="Me"/>
+                <div className="about-section-image-desktop" >
+                    <div className="overflow-container">
+                        <img src="./image/profile-port.png" data-aos="slide-up" loading="lazy" alt="Me"/>
+                    </div>
                 </div>
                 <AniBox />
             </div>
             <div className="about-section-right-content">
                 <h1 data-aos="slide-left">05</h1>
                 <div className="about-section-text">
-                    <h1 data-aos="fade-up" data-aos-delay="800" data-aos-anchor-placement="bottom-bottom">ABOUT ME</h1>
-                    <h2 data-aos="fade-up" data-aos-delay="1200" data-aos-anchor-placement="bottom-bottom">Hi, Roy here</h2>
-                    <p data-aos="fade-up" data-aos-delay="1600" data-aos-anchor-placement="bottom-bottom">A passionate Computer Science graduate, I view technology as more than just a career, 
-                        it's an exciting exploration fueled by curiosity and inspired by pioneering works.
-                    </p>
-                    <p data-aos="fade-up" data-aos-delay="1700" data-aos-anchor-placement="bottom-bottom">The journey ahead in the realm of technology may present its challenges,
-                         but I firmly believe that, with the right environment and mindset,
-                        every difficulties transforms into a possibility waiting to be realized.
-                    </p>
+                    <div className="overflow-container">
+                        <h1 data-aos="slide-up" data-aos-delay="800" data-aos-anchor-placement="bottom-bottom">ABOUT ME</h1>
+                    </div>
+                    <div className="overflow-container">
+                        <h2 data-aos="slide-up" data-aos-delay="1200" data-aos-anchor-placement="bottom-bottom">Hi, Roy here</h2>
+                    </div>
+                    <div className="overflow-container">
+                        <p data-aos="slide-down" data-aos-delay="1600" data-aos-anchor-placement="bottom-bottom">A passionate Computer Science graduate, I view technology as more than just a career, 
+                            it's an exciting exploration fueled by curiosity and inspired by pioneering works.
+                        </p>
+                    </div>
+                    <div className="overflow-container">    
+                        <p data-aos="slide-down" data-aos-delay="1700" data-aos-anchor-placement="bottom-bottom">The journey ahead in the realm of technology may present its challenges,
+                            but I firmly believe that, with the right environment and mindset,
+                            every difficulties transforms into a possibility waiting to be realized.
+                        </p>
+                    </div>
                     <div className="about-section-btn">
                         <button className="contact-download-pdf" onClick={downloadFile} data-aos="fade-left" data-aos-delay="2000">
                             <BiSolidFilePdf/> Download CV
                         </button>
 
-                        <a href="/skills">
+                        <Link to="/skills">
                                 <button id="skills" data-aos="fade-left" data-aos-delay="2100">My Skills</button>
-                        </a>
+                        </Link>
                         
                     </div>
                     <div className="about-icon-wrapper" data-aos="fade-left" data-aos-delay="2300">

@@ -2,8 +2,12 @@
 export default function WorksHeader(){
     return(
         <section className="works-header-section">
-            <h1>MY WORKS</h1>
-            <p>"everything has a start"</p>
+            <div className="overflow-container">
+                <h1 data-aos="slide-down">MY WORKS</h1>
+            </div>
+            <div className="overflow-container">
+                <p data-aos="slide-down">"everything has a start"</p>
+            </div>
         </section>
     )
 }

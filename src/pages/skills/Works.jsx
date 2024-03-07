@@ -4,17 +4,22 @@ import { FaFigma } from "react-icons/fa";
 export default function Works() {
     return(
         <section className="works-section">
-            <div className="works-content content-left" data-aos="fade-left">
-                 <div className="work-content-text">
-                    <p>Tanya's Web Portfolio</p>
-                 </div>
-                <div className="works-content-img">
-                    <a href="https://tanyakasteneportfolio.netlify.app/">
-                        <img id="work-1" src="./image/work1.png" alt="Yor"/>
-                    </a>
-                    <div className="works-icon-wrapper">
-                        <a href="https://github.com/roypaul21/TanyaPortfolio" > <FaGithub /> </a> 
+            <div className="works-content content-left">
+                <div data-aos="fade-left">
+                    <div className="work-content-text">
+                        <p>Tanya's Web Portfolio</p>
                     </div>
+                    <div className="works-content-img">
+                        <a href="https://tanyakasteneportfolio.netlify.app/">
+                            <img id="work-1" src="./image/work1.png" alt="Yor"/>
+                        </a>
+                        <div className="works-icon-wrapper">
+                            <a href="https://github.com/roypaul21/TanyaPortfolio" > <FaGithub /> </a> 
+                        </div>
+                    </div>
+                </div>
+                <div className="overflow-container">
+                    <p className="visit-site" data-aos="slide-down">(Click the image to visit Site)</p>
                 </div>
             </div>
 
@@ -31,13 +36,16 @@ export default function Works() {
                             <a href="https://github.com/roypaul21/VertexWeb" > <FaGithub /> </a> 
                         </div>
                     </div>
+                    <div className="overflow-container">
+                        <p className="visit-site" data-aos="slide-down">(Click the image to visit Site)</p>
+                    </div>
                 </div>
             </div>
 
             <div className="works-content content-left" data-aos="fade-left">
                 <div className="work-section-content">
                     <div className="work-content-text">
-                        <p>Bugged? Post</p>
+                        <p>Bugged? Post </p>
                     </div>
                     <div className="works-content-img">
                         <a href="https://buggedpost.netlify.app/">
@@ -47,6 +55,9 @@ export default function Works() {
                             <a href="https://github.com/roypaul21/BuggedPost" > <FaGithub /> </a> 
                         </div>
                     </div>
+                </div>
+                <div className="overflow-container">
+                    <p className="visit-site" data-aos="slide-down">(Click the image to visit Site)</p>
                 </div>
             </div>
             
@@ -63,6 +74,9 @@ export default function Works() {
                             <a href="https://www.figma.com/community/file/1339918062749216285" > <FaFigma   /> </a> 
                         </div>
                     </div>
+                    <div className="overflow-container">
+                        <p className="visit-site" data-aos="slide-down">(Click the image to visit Figma)</p>
+                    </div>
                 </div>
             </div>
             <div className="works-content content-left" data-aos="fade-left">
@@ -77,6 +91,9 @@ export default function Works() {
                         <div className="works-icon-wrapper">
                             <a href="https://github.com/roypaul21/Duck-Detection-Web-App" > <FaGithub /> </a> 
                         </div>
+                    </div>
+                    <div className="overflow-container">
+                        <p className="visit-site" data-aos="slide-down">(Click the image to visit Github)</p>
                     </div>
                 </div>
             </div>
@@ -93,6 +110,9 @@ export default function Works() {
                             <a href="https://github.com/roypaul21/OrangeManGame" > <FaGithub /> </a> 
                         </div>
                     </div>
+                    <div className="overflow-container">
+                        <p className="visit-site" data-aos="slide-down">(Click the image to visit Github)</p>
+                    </div>
                 </div>
             </div>
             <div className="works-content content-left" data-aos="fade-left">
@@ -108,8 +128,12 @@ export default function Works() {
                             <a href="https://github.com/roypaul21/Othello-Python" > <FaGithub /> </a> 
                         </div>
                     </div>
+                    <div className="overflow-container">
+                        <p className="visit-site" data-aos="slide-down">(Click the image to visit Github)</p>
+                    </div>
                 </div>
             </div>
+
             <div className="works-content content-right" data-aos="fade-right">
                 <div className="work-section-content">
                     <div className="work-content-text">
@@ -122,6 +146,9 @@ export default function Works() {
                         <div className="works-icon-wrapper">
                             <a href="https://github.com/roypaul21/EightPuzzleGame" > <FaGithub /> </a> 
                         </div>
+                    </div>
+                    <div className="overflow-container">
+                        <p className="visit-site" data-aos="slide-down">(Click the image to visit Github)</p>
                     </div>
                 </div>
             </div>
@@ -139,8 +166,12 @@ export default function Works() {
                             <a href="https://www.figma.com/community/file/1339916310611506716/tatbeeb-medical-mobile-app" > <FaFigma /> </a> 
                         </div>
                     </div>
+                    <div className="overflow-container">
+                        <p className="visit-site" >(Click the image to visit Figma)</p>
+                    </div>
                 </div>
             </div>
+
         </section>
     )
 }

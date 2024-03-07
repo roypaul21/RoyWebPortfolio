@@ -11,13 +11,14 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact() {
+    console.log(import.meta.env.VITE_SEND_FORM_SERVICE)
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs
-        .sendForm('service_hzrtc8d', 'template_llvjenk', form.current, {
-            publicKey: 'yN6d_Wp2DVuahY_Uo',
+        .sendForm(import.meta.env.VITE_SEND_FORM_SERVICE, import.meta.env.VITE_SEND_FORM_TEMPLATE, form.current, {
+            publicKey: import.meta.env.VITE_PUBLIC_KEY,
         })
         .then(
             () => {
