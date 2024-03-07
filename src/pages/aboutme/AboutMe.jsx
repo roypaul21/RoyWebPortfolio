@@ -37,9 +37,7 @@ export default function AboutMe() {
         <section className="about-section">
             <div className="about-section-left-content">
                 <div className="about-section-image-desktop" >
-                    <div className="overflow-container">
-                        <img src="./image/profile-port.png" data-aos="slide-up" loading="lazy" alt="Me"/>
-                    </div>
+                    <img src="./image/profile-port.png" data-aos="slide-up" loading="lazy" alt="Me"/>
                 </div>
                 <AniBox />
             </div>

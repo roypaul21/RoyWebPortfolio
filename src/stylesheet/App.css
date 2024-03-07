@@ -268,7 +268,7 @@ body {
   z-index: 3;
 }
 
-.about-section-image-desktop > div > img{
+.about-section-image-desktop > img{
   margin: 0px;
   padding: 0px;
   height: 100%;
