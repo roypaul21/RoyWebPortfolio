@@ -12,13 +12,13 @@ import { Link } from "react-router-dom";
 export default function AboutMe() {
     useEffect(() => {
         Aos.init({
-            disable: false,
+            
             startEvent: 'DOMContentLoaded',
             animatedClassName: 'aos-animate',
-            offset: 120, 
+            offset: 0, 
             delay: 0,
             duration: 400,
-            easing: 'ease-in-sine',
+            easing: 'ease-out',
             once: true,
         })
     },[])
@@ -36,8 +36,8 @@ export default function AboutMe() {
     return(
         <section className="about-section">
             <div className="about-section-left-content">
-                <div className="about-section-image-desktop" >
-                    <img src="./image/profile-port.png" data-aos="slide-up" loading="lazy" alt="Me"/>
+                <div className="about-section-image-desktop overflow-container" >
+                    <img data-aos="slide-left" src="./image/profile-port.png" loading="lazy" alt="Me"/>
                 </div>
                 <AniBox />
             </div>
